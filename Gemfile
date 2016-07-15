@@ -26,7 +26,10 @@ gem 'bootstrap-sass', '~> 3.3.0.1'
 gem 'devise', '~> 3.4.1'
 gem 'simple_form', '~> 3.0.2'
 gem 'pg', '~> 0.18.4'
-
+gem 'omniauth', '~> 1.3', '>= 1.3.1'
+gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
+gem 'omniauth-facebook', '~> 3.0'
+gem 'faraday', '~> 0.9.2'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -27,7 +27,10 @@
 		</ul>
 
 		<% if !user_signed_in? %>
-			<p class="sign_in"><%= link_to('Login', "users/sign_in") %></p>
+		<ul>
+			<li class="category">Login</li>
+			<li><%= link_to('Login', "users/sign_in") %></li>
+		</ul>
 		<% end %>
 	</div>
 
